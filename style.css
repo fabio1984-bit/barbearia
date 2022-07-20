@@ -1,0 +1,61 @@
+    body {}
+
+    #banner {
+        width: 100%;
+    }
+
+
+    p {
+        text-align: center;
+
+    }
+
+    /*Quando usamos ID usamos para identificar a # */
+    #missao {
+        font-size: 20px;
+
+    }
+
+    em strong {
+        color: red;
+    }
+
+    /*Quando usamos class usamos o (.) para identificar*/
+    .itens {
+        font-style: italic;
+
+    }
+
+    .beneficios {
+        background: #ffffff;
+
+    }
+
+    .principal {
+        background: #cccccc;
+        padding: 20px;
+        padding: 30px;
+    }
+
+    .titulo-centralizado {
+        text-align: center;
+    }
+
+    .titulo-principal {
+        padding-left: 20px;
+
+    }
+
+
+
+    ul {
+        display: inline-block;
+        vertical-align: top;
+        width: 20%;
+        margin-right: 15%;
+
+    }
+
+    .imagembeneficios {
+        width: 50%;
+    }
