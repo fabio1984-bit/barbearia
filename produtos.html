@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html>
-<!--git pull origin master faz isso no cmd -->
+<!--comandos no cmd 
+     1º verificar se teve atualização de alguém (git status) vai mostrar ser criou alguma coisa ou atualizou
+     2º atualizar  (git add .)
+     3º atualizar no repositório local(git commit -m "atualização pagina2.html")
+     4º enviar para o github (1- git pull origin master -> git push origin main)
+    
+    git pull origin master faz isso no cmd -->
 
 <head>
     <meta charset="UTF-8">
@@ -24,6 +30,35 @@
             </nav>
         </div>
     </header>
+
+    <main>
+        <ul class="produtos">
+            <li>
+                <h2>Cabelo</h2>
+                <img src="cabelo.jpg">
+                <p class="produto-descricao">Na tesoura ou máquina , como o cliente preferir.</p>
+                <p class="produto-preco">R$ 25,00</p>
+            </li>
+            <li>
+                <h2>Barba</h2>
+                <img src="barba.jpg">
+                <p class="produto-descricao">Corte e desenho profissional de barba.</p>
+                <p class="produto-preco">R$ 18,00</p>
+            </li>
+            <li>
+                <h2>Cabelo + Barba</h2>
+                <img src="cabelo+barba.jpg">
+                <p class="produto-descricao">Pacote completo de cabelo e barba.</p>
+                <p class="produto-preco">R$ 35,00</p>
+            </li>
+        </ul>
+    </main>
+
+    <footer>
+        <img src="logo-branco.png">
+        <p class="copyright">&copy; Copyright Barbearia Alura - 2022 </p>
+    </footer>
+
 
 </body>
 
